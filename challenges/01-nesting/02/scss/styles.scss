@@ -16,6 +16,37 @@ body {
 
 .btn {
   /* your code starts here */
+  display: inline-block;
+  padding: 1em 2em;
+  cursor: pointer;
+  border: 0;
+  text: {
+    decoration: none;
+    transform: uppercase;
+    }
+  color: white;
 
-  /* your code ends here */
+    &__primary {
+      background: #3f637d;
+
+      &:hover, :focus {
+        background: #2b4355;
+      }
+    }
+
+    &__secondary {
+      background: #4c4171;
+
+        &:hover, :focus {
+          background: #2b2541;
+        }
+    }
+
+    &__accent {
+      background: #efca5d;
+
+      &:hover, :focus {
+        background: #d1a215;
+      }
+    }
 }
